@@ -11,7 +11,7 @@ const Section = ({ html, reactSvg, js }) => {
                     <h2>Hugo Barbosa Rodrigues</h2>
                     <p>Me chamo Hugo, sou do sul de Minas e atualmente estou fazendo o curso de
                         Análise e Desenvolvimento de Sistemas na Unilavras.
-                        Estou estudando programção Front-end há a uns 4 meses e ultimamente estou estudando Python, Javascript e React Js.</p>
+                        Estou estudando programção Front-end há 4 meses e ultimamente estou estudando Python, Javascript e React Js.</p>
                     <p>
                         Comecei a me interessar na programação quando fazia Abi na Ufla e depois disso
                         troquei de curso para um mais voltado ao desenvolvimento de software e posso falar que
