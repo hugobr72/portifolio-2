@@ -1,0 +1,34 @@
+#img {
+    width: 200px;
+    border-radius: 8px;
+    height: 116px;
+}
+
+.foto {
+    padding: 20px 15px;
+}
+
+.foto h3 {
+    text-align: end;
+    text-transform: lowercase;
+    font-weight: 700;
+    font-size: 10px;
+    line-height: 11px;
+    padding-top: 15px;
+}
+
+.children {
+    text-align: start;
+}
+
+.children h3 {
+    padding-bottom: 8px;
+    font-weight: 800;
+    font-size: 20px;
+    line-height: 27px;
+}
+
+.children h4 {
+    padding-top: 25px;
+    text-decoration: underline;
+}

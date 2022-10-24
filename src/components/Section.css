@@ -1,0 +1,184 @@
+section {
+    padding: 0px 120px;
+    margin-bottom: 70px;
+}
+
+#line-sobre {
+    text-align: start;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 41px;
+}
+
+#line-sobre::after {
+    content: '';
+    display: block;
+    width: 70px;
+    background-color: black;
+    height: 5px;
+}
+
+.sobre {
+    margin-top: 60px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    padding-bottom: 20px;
+}
+
+.text {
+    margin-top: 20px;
+    overflow-wrap: anywhere;
+    margin-left: 36px;
+}
+
+.text h3 {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    text-transform: uppercase;
+}
+
+.text h3 a {
+    padding-right: 10px;
+}
+
+.text h2 {
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 41px;
+}
+
+.text p {
+    font-weight: 200;
+    font-size: 14px;
+    line-height: 19px;
+    text-align: start;
+}
+
+.sobre img {
+    filter: grayscale(16%);
+    width: 280px;
+    border-radius: 50%;
+}
+
+.cartoes {
+    margin-top: 60px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.cartao {
+    width: 278px;
+    height: 72px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border-radius: 8px;
+    display: flex;
+    justify-content: flex-start;
+    padding: 10px;
+}
+
+.cartao img {
+    padding-right: 16px;
+}
+
+.cartao h2 {
+    font-weight: 800;
+    font-size: 16px;
+    line-height: 22px;
+    text-transform: uppercase;
+}
+
+.cartao p {
+    font-weight: 500;
+    font-size: 10px;
+    line-height: 14px;
+}
+
+@media (max-width: 788px) {
+    section {
+        padding: 0;
+    }
+
+    section h2 {
+        padding-left: 10px;
+    }
+
+    .sobre {
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .text h2 {
+        padding: 0;
+        padding-top: 10px;
+    }
+
+    .text {
+        padding: 10px 5px;
+        margin: 0;
+        overflow-wrap: anywhere;
+    }
+
+    .cartoes {
+        place-content: center;
+    }
+}
+
+@media (max-width: 450px) {
+    .sobre img {
+        width: 200px;
+    }
+
+    .text h2 {
+        font-size: 20px;
+    }
+
+    .text p {
+        font-size: 12px;
+        font-weight: 400;
+    }
+
+    .text h3 {
+        text-align: center;
+    }
+}
+
+@media (max-width: 350px) {
+    .sobre img {
+        width: 150px;
+    }
+
+    .text h3 {
+        font-size: 12px;
+    }
+
+    .cartao {
+        width: 240px;
+        height: 60px;
+    }
+
+    .textCartao h2 {
+        font-size: 12px;
+        text-align: start;
+    }
+
+    .textCartao p {
+        font-size: 8px;
+    }
+
+    #line-sobre {
+        font-size: 20px;
+    }
+
+    #line-sobre::after {
+        width: 52px;
+        height: 3px;
+        position: absolute;
+        bottom: 68px;
+    }
+}
