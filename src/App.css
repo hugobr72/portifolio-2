@@ -15,12 +15,13 @@ main {
 }
 
 main h2 {
-  font-weight: 400;
-  font-size: 45px;
+  font-weight: 500;
+  font-size: 55px;
   line-height: 65px;
+  text-shadow: 5px 10px 4px rgb(0 0 0 / 30%);
 }
 
-.contatos{
+.contatos {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -28,40 +29,48 @@ main h2 {
   padding-bottom: 15vh;
 }
 
-.contatos svg{
+.contatos svg {
   color: #000;
   font-size: 25px;
   margin: 0 6px;
+  box-shadow: 2px 4px 10px rgb(0 0 0 / 30%);
 }
 
-.contatos svg:hover{
+.contatos svg:hover {
+  color: rgb(0, 0, 0, 0.6);
+  box-shadow: 4px 3px 8px rgb(0 0 0 / 30%);
+}
+
+a:hover {
   color: rgb(0, 0, 0, 0.6);
 }
 
-a:hover{
-  color: rgb(0, 0, 0, 0.6);
+@media (max-width: 868px) {
+  main h2 {
+    font-size: 35px;
+  }
 }
 
 @media (max-width: 768px) {
-  main h2{
+  main h2 {
     font-size: 30px;
   }
 }
 
 @media (max-width: 450px) {
-  main h2{
+  main h2 {
     font-size: 20px;
   }
 }
 
 @media (max-width: 450px) {
-  main h2{
+  main h2 {
     font-size: 18px;
   }
 }
 
-@media (max-width: 450px){
-  .contatos svg{
+@media (max-width: 450px) {
+  .contatos svg {
     font-size: 20px;
   }
 }

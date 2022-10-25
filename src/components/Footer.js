@@ -3,9 +3,9 @@ import './Footer.css'
 import calculadora from '../img/calculadora.png'
 import list from '../img/list.png'
 import pokedex from '../img/pokedex.png'
-const Footer = () => {
+const Footer = ({ projetos }) => {
     return (
-        <footer id='projetos'>
+        <footer id='projetos' ref={projetos}>
             <h2 data-aos="fade-left">Projetos pessoais</h2>
             <div className="projetos" >
 
@@ -25,8 +25,7 @@ const Footer = () => {
                         reactjs={true} css={true} js={true}
                         img={list}>
                         <h3>Lista de Tarefas</h3>
-                        <p>Fiz esse projeto totalmente com React Js confesso que a parte de editar foi a mais complicada
-                            para fazer demorei dois dias para fazer essa parte mas no fim deu tudo certo.</p>
+                        <p>Fiz esse projeto simples totalmente com React Js.</p>
                         <h4><a href="https://github.com/hugobr72/To-do-List-React">Repositório do Projeto</a></h4>
                     </Projeto>
                 </div>
@@ -35,7 +34,7 @@ const Footer = () => {
                         reactjs={true} css={true} js={true}
                         img={calculadora}>
                         <h3>Calculadorda Com React</h3>
-                        <p>Primeiro projeto que fiz com React demorei mais ou menos 3 dias e ainda conhecia poucos dos hooks.</p>
+                        <p>Projeto de calculadora que fiz no começo dos meus estudos de React, utilizando apenas o hook useState e eventos de click.</p>
                         <h4><a href="https://github.com/hugobr72/To-do-List-React">Repositório do Projeto</a></h4>
                     </Projeto>
                 </div>
