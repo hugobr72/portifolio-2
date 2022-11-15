@@ -77,6 +77,10 @@ button {
         ;
     }
 
+    .ativo li:hover{
+        color: #e5e5e583;
+    }
+
     .ativo ul::after {
         content: '';
         display: block;
