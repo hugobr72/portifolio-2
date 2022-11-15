@@ -47,14 +47,14 @@ footer h2::after {
     transform-style: preserve-3d;
 }
 
-.projetow{
+.projetow {
     width: 100%;
     height: 100%;
     display: flex;
     align-items: center;
 }
 
-.projetow img{
+.projetow img {
     transform: translateZ(25px);
 }
 
@@ -67,6 +67,10 @@ h5 {
 @media (max-width: 641px) {
     footer {
         padding: 0px 0px;
+    }
+
+    .projetos {
+        grid-row-gap: 16px;
     }
 
     .projeto {
