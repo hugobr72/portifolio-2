@@ -43,6 +43,19 @@ footer h2::after {
     display: flex;
     align-items: center;
     padding: 0 10px;
+    transform: perspective(1000px);
+    transform-style: preserve-3d;
+}
+
+.projetow{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.projetow img{
+    transform: translateZ(25px);
 }
 
 h5 {
@@ -62,6 +75,12 @@ h5 {
         height: 500px;
         place-self: center;
     }
+
+    .projetow {
+        display: block;
+        place-self: center;
+    }
+
 }
 
 @media (max-width: 380px) {
@@ -80,38 +99,37 @@ h5 {
         height: 500px;
     }
 
-    #img{
+    #img {
         width: 180px;
         height: 100px;
     }
 }
 
-@media (max-width: 280px){
+@media (max-width: 280px) {
     .projeto {
         width: 180px;
         height: 400px;
     }
 
-    .children h3{
+    .children h3 {
         font-size: 12px;
     }
 
-    .children p{
+    .children p {
         font-size: 10px;
     }
 
-    .children h4{
+    .children h4 {
         font-size: 12px;
     }
 
 
-    #img{
+    #img {
         width: 140px;
         height: 90px;
     }
 
-    footer h5{
+    footer h5 {
         font-size: 16px;
     }
 }
-

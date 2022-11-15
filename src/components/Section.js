@@ -1,14 +1,16 @@
-
 import './Section.css'
-const Section = ({ sobre }) => {
+import Tilt from 'react-parallax-tilt'
 
+const Section = ({ sobre }) => {
 
     return (
         <section ref={sobre}>
             <h2 id='line-sobre'>Sobre mim</h2>
 
             <div className="sobre" id='sobre'>
-                <img src="https://avatars.githubusercontent.com/u/108242865?v=4" alt="Foto" data-aos="fade-right" />
+                <Tilt>
+                    <img src="https://avatars.githubusercontent.com/u/108242865?v=4" alt="Foto" data-aos="fade-right" />
+                </Tilt>
                 <div className="text" data-aos="fade-left" data-aos-delay="100">
                     <h2>Hugo Barbosa Rodrigues</h2>
                     <p>Me chamo Hugo, sou do sul de Minas e atualmente estou cursando
