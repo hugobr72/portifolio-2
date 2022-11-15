@@ -11,7 +11,7 @@ const Section = ({ sobre }) => {
                 <Tilt>
                     <img src="https://avatars.githubusercontent.com/u/108242865?v=4" alt="Foto" data-aos="fade-right" />
                 </Tilt>
-                <div className="text" data-aos="fade-left" data-aos-delay="100">
+                <div className="text" data-aos="zoom-in" data-aos-delay="100">
                     <h2>Hugo Barbosa Rodrigues</h2>
                     <p>Me chamo Hugo, sou do sul de Minas e atualmente estou cursando
                         Análise e Desenvolvimento de Sistemas na Unilavras.

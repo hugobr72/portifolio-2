@@ -27,7 +27,7 @@ header li {
     cursor: pointer;
 }
 
-li:hover{
+li:hover {
     color: rgb(0, 0, 0, 0.6);
 }
 
@@ -46,10 +46,16 @@ button {
         position: absolute;
         top: 31px;
         transition: transform 0.2 linear;
+        cursor: pointer;
     }
 
     .ativo button {
         font-size: 28px;
+        color: white;
+        background-color: #000;
+    }
+
+    .ativo button svg {
         transform: rotate(45deg);
     }
 
@@ -66,7 +72,25 @@ button {
         position: absolute;
         right: 44px;
         top: 69px;
-        animation: rightLeft 1.3s cubic-bezier(0.09, 1.21, 1, 1);
+        color: white;
+        transition: 0.8s cubic-bezier(0, 1.33, 1, 1);
+        ;
+    }
+
+    .ativo ul::after {
+        content: '';
+        display: block;
+        position: absolute;
+        top: -62px;
+        right: -16px;
+        width: 189px;
+        height: 232px;
+        z-index: -5;
+        border-bottom-left-radius: 50%;
+        border-top-left-radius: 200%;
+
+        animation: leftRight 0.8s cubic-bezier(0.01, 1.07, 1, 1);
+        background-color: #000;
     }
 
     .ativo li {
@@ -90,7 +114,18 @@ button {
         top: 64px;
     }
 
-    header ul li{
+    header ul li {
         font-size: 15px;
     }
+}
+
+@keyframes leftRight {
+    0% {
+        transform: translateX(+50%);
+    }
+
+    100% {
+        transform: translateX(0%);
+    }
+
 }

@@ -10,11 +10,11 @@ const Footer = ({ projetos }) => {
 
     return (
         <footer id='projetos' ref={projetos}>
-            <h2 data-aos="fade-left">Projetos pessoais</h2>
+            <h2 data-aos="zoom-in">Projetos pessoais</h2>
             <div className="projetos" >
 
                 <Tilt style={{ backgroundColor: 'transparent' }} className='projeto' >
-                    <div className="projetow" data-aos="fade-right">
+                    <div className="projetow" data-aos="zoom-in">
                         <Projeto
                             img='https://github.com/hugobr72/projeto-secret-word/raw/main/ProjetoSecretWord.png'>
                             <h3>Projeto Secret Word</h3>
@@ -27,7 +27,7 @@ const Footer = ({ projetos }) => {
                 </Tilt>
 
                 <Tilt style={{ backgroundColor: 'transparent' }} className='projeto'  >
-                    <div className="projetow" data-aos="fade-left" data-aos-delay="250">
+                    <div className="projetow" data-aos="zoom-in" data-aos-delay="250">
                         <Projeto
                             img={list}>
                             <h3>Lista de Tarefas</h3>
@@ -38,7 +38,7 @@ const Footer = ({ projetos }) => {
                 </Tilt>
 
                 <Tilt style={{ backgroundColor: 'transparent' }} className='projeto'  >
-                    <div className="projetow" data-aos="fade-right">
+                    <div className="projetow" data-aos="zoom-in">
                         <Projeto
                             img={calculadora}>
                             <h3>Calculadorda Com React</h3>
@@ -49,7 +49,7 @@ const Footer = ({ projetos }) => {
                 </Tilt>
 
                 <Tilt style={{ backgroundColor: 'transparent' }} className='projeto'  >
-                    <div className="projetow" data-aos="fade-left" data-aos-delay="250">
+                    <div className="projetow" data-aos="zoom-in" data-aos-delay="250">
                         <Projeto
                             html={true} css={true} js={true}
                             img={pokedex}>

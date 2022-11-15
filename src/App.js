@@ -9,7 +9,7 @@ import { FaGithubSquare } from "react-icons/fa";
 import { FaWhatsappSquare } from "react-icons/fa";
 import Aos from 'aos';
 import "aos/dist/aos.css"
-
+import Tilt from 'react-parallax-tilt'
 
 function App() {
   const sobre = useRef();
@@ -20,6 +20,7 @@ function App() {
   useEffect(() => {
     Aos.init({
       duration: 1500,
+      once: true,
     })
   })
 
@@ -27,10 +28,13 @@ function App() {
     <div className="App">
       <Header sobre={sobre} projetos={projetos} contatos={contatos} />
       <main>
-        <h2 data-aos="zoom-in" data-aos-duration="1000">Desenvolvedor_ Front-End</h2>
+        <Tilt>
+          <h2 data-aos="zoom-in" data-aos-duration="1000">Desenvolvedor_ Front-End</h2>
+        </Tilt>
+
       </main>
 
-      <Section sobre={sobre}/>
+      <Section sobre={sobre} />
       <Footer projetos={projetos} />
 
       <div className="contatos" id='contato' ref={contatos} >
