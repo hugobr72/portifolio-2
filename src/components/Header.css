@@ -74,7 +74,6 @@ button {
         top: 69px;
         color: white;
         transition: 0.8s cubic-bezier(0, 1.33, 1, 1);
-        ;
     }
 
     .ativo li:hover{
@@ -85,14 +84,13 @@ button {
         content: '';
         display: block;
         position: absolute;
-        top: -62px;
-        right: -16px;
-        width: 189px;
-        height: 232px;
+        top: -70px;
+        right: -44px;
+        width: 239px;
+        height: 252px;
         z-index: -5;
         border-bottom-left-radius: 50%;
         border-top-left-radius: 200%;
-
         animation: leftRight 0.8s cubic-bezier(0.01, 1.07, 1, 1);
         background-color: #000;
     }
@@ -116,6 +114,12 @@ button {
     .ativo ul {
         right: 16px;
         top: 64px;
+    }
+
+    .ativo ul::after{
+        right: -16px;
+        width: 180px;
+        height: 220px;
     }
 
     header ul li {

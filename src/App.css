@@ -32,14 +32,12 @@ main h2 {
 
 .contatos svg {
   color: #000;
-  font-size: 25px;
+  font-size: 35px;
   margin: 0 6px;
-  box-shadow: 2px 4px 10px rgb(0 0 0 / 30%);
 }
 
 .contatos svg:hover {
-  color: rgb(0, 0, 0, 0.6);
-  box-shadow: 4px 3px 8px rgb(0 0 0 / 30%);
+  opacity: 0.8;
 }
 
 a:hover {
@@ -70,7 +68,7 @@ a:hover {
   }
 
   .contatos svg {
-    font-size: 20px;
+    font-size: 30px;
   }
 }
 
