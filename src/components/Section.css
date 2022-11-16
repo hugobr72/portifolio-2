@@ -32,7 +32,6 @@ section {
     margin-top: 20px;
     overflow-wrap: anywhere;
     margin-left: 36px;
-    text-shadow: 5px 6px 4px rgb(0 0 0 / 30%);
 }
 
 .text h3 {
@@ -40,6 +39,7 @@ section {
     font-size: 14px;
     line-height: 19px;
     text-transform: uppercase;
+    text-shadow: 5px 6px 4px rgb(0 0 0 / 30%);
 }
 
 .text h3 a {
@@ -47,14 +47,15 @@ section {
 }
 
 .text h2 {
-    font-weight: 400;
+    font-weight: 500;
     font-size: 30px;
     line-height: 41px;
     margin: 12px 0;
+    text-shadow: 5px 6px 4px rgb(0 0 0 / 30%);
 }
 
 .text p {
-    font-weight: 300;
+    font-weight: 400;
     font-size: 14px;
     line-height: 19px;
     text-align: start;
@@ -64,6 +65,30 @@ section {
     filter: grayscale(16%);
     width: 280px;
     border-radius: 50%;
+}
+
+#btn-cv a {
+    color: #fff;
+}
+
+
+#btn-cv {
+    margin-top: 25px;
+    background-color: #000;
+    display: grid;
+    place-content: center;
+    width: 120px;
+    height: 45px;
+    cursor: pointer;
+    border: 1px solid #000;
+    transition: 1s ease-in-out;
+    box-shadow: 5px 6px 4px rgb(0 0 0 / 10%);
+}
+
+#btn-cv:hover {
+    animation: mexe .2s ease-in-out;
+    transition: 0.2s ease-in-out;
+    box-shadow: 1px 1px 11px 10px rgb(0 0 0 / 30%);
 }
 
 @media (max-width: 788px) {
@@ -92,6 +117,11 @@ section {
         overflow-wrap: anywhere;
     }
 
+    #btn-cv{
+        margin: 0 auto;
+        margin-top: 25px;
+    }
+
 }
 
 @media (max-width: 450px) {
@@ -107,10 +137,14 @@ section {
     .text p {
         font-size: 12px;
         font-weight: 300;
-        
+
     }
 
     .text h3 {
+        text-align: center;
+    }
+
+    #btn-cv{
         text-align: center;
     }
 }
@@ -133,5 +167,15 @@ section {
         height: 3px;
         position: absolute;
         bottom: 68px;
+    }
+}
+
+@keyframes mexe {
+    0%{
+        transform: translateX(05%);
+    }
+
+    50%{
+        transform: translateX(-05%);
     }
 }

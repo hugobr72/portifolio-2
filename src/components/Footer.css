@@ -2,7 +2,6 @@ footer {
     padding: 0px 110px;
     margin-bottom: 15vh;
     text-align: center;
-    text-shadow: 5px 6px 4px rgb(0 0 0 / 30%);
 }
 
 footer h2 {
@@ -33,6 +32,10 @@ footer h2::after {
     grid-column-gap: 6px;
     grid-row-gap: 6px;
     place-content: center;
+}
+
+.projeto h3{
+    text-shadow: 5px 6px 4px rgb(0 0 0 / 30%);
 }
 
 .projeto {

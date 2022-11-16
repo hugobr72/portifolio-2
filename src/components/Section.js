@@ -1,5 +1,6 @@
 import './Section.css'
 import Tilt from 'react-parallax-tilt'
+import CV from '.././pdf/Currículo 2.pdf'
 
 const Section = ({ sobre }) => {
 
@@ -25,7 +26,9 @@ const Section = ({ sobre }) => {
                     <br />
                     <h3><a href="https://www.instagram.com/hugobrod_/">Intagram</a> <a href="https://github.com/hugobr72">Github</a>
                         <a href="https://api.whatsapp.com/send?phone=5535997164602&text=Ol%C3%A1%2C%20Seja%20bem%20vindo!">Whatsapp</a></h3>
+                    <h3 id='btn-cv'><a href={CV} download={CV}>Baixar CV</a></h3>
                 </div>
+
             </div>
 
         </section>
