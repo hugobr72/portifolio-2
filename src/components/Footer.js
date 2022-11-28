@@ -1,7 +1,6 @@
 import Projeto from './projeto'
 import './Footer.css'
 import calculadora from '../img/calculadora.png'
-import list from '../img/list.png'
 import pokedex from '../img/pokedex.png'
 import Tilt from 'react-parallax-tilt'
 
