@@ -29,10 +29,11 @@ const Footer = ({ projetos }) => {
                 <Tilt style={{ backgroundColor: 'transparent' }} className='projeto'  >
                     <div className="projetow" data-aos="zoom-in" data-aos-delay="250">
                         <Projeto
-                            img={list}>
-                            <h3>Lista de Tarefas</h3>
-                            <p>Fiz esse projeto simples totalmente com React Js.</p>
-                            <h4><a href="https://github.com/hugobr72/To-do-List-React">Repositório do Projeto</a></h4>
+                            img={'https://media-exp1.licdn.com/dms/image/C4D22AQEmKWkOXmgVrw/feedshare-shrink_2048_1536/0/1669595717845?e=1672272000&v=beta&t=yniC4rcAyuyEpemVu4FTGeJUWCv4oOyHsRW9KtgawHM'}>
+                            <h3>FireBlog</h3>
+                            <p>Projeto de blog com React, Firebase e com dark mode.
+                            Utilizei React router para rotas, redux para gerenciar estado, react icons, firebase Authentication para autenticação de usuário e Cloud Firestore para banco de dados.</p>
+                            <h4><a href="https://lnkd.in/dXtPRc3j">Repositório do Projeto</a></h4>
                         </Projeto>
                     </div>
                 </Tilt>
