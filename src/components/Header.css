@@ -73,7 +73,7 @@ button {
         right: 44px;
         top: 69px;
         color: white;
-        transition: 0.8s cubic-bezier(0, 1.33, 1, 1);
+        transition: 0.9s cubic-bezier(0, 1.33, 1, 1);
     }
 
     .ativo li:hover{
@@ -91,7 +91,7 @@ button {
         z-index: -5;
         border-bottom-left-radius: 50%;
         border-top-left-radius: 200%;
-        animation: leftRight 0.8s cubic-bezier(0.01, 1.07, 1, 1);
+        animation: leftRight 0.5s cubic-bezier(0.01, 1.07, 1, 1);
         background-color: #000;
     }
 
@@ -129,7 +129,7 @@ button {
 
 @keyframes leftRight {
     0% {
-        transform: translateY(-100%);
+        transform: translateY(-60%);
     }
 
     100% {
